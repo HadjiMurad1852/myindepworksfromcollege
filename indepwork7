@@ -1,0 +1,1263 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	setlocale(0, "");
+	while (true) {
+		cout << "[+] Месяца года" << "\n" <<
+			"[1] Январь" << "\n" <<
+			"[2] Февраль" << "\n" <<
+			"[3] Март" << "\n" <<
+			"[4] Апрель" << "\n" <<
+			"[5] Май" << "\n" <<
+			"[6] Июнь" << "\n" <<
+			"[7] Июль" << "\n" <<
+			"[8] Август" << "\n" <<
+			"[9] Сентябрь" << "\n" <<
+			"[10] Октябрь" << "\n" <<
+			"[11] Ноябрь" << "\n" <<
+			"[12] Декабрь" << "\n" << endl;
+		int a;
+		int b;
+		cout << "Выберите месяц: ";
+		cin >> a;
+		cout << "Выберите день: ";
+		cin >> b;
+		switch (a) {
+		case 1:
+			switch (b) {
+			case 1:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 2:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 3:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 4:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 5:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 6:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 7:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 8:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 9:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 10:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 11:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 12:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 13:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 14:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 15:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 16:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 17:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 18:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 19:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 20:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 21:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 22:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 23:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 24:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 25:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 26:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 27:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 28:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 29:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 30:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+			case 31:
+				cout << "Календарь: " << b << " Января" << endl;
+				break;
+
+
+			default:
+				cout << "Такого числа нет!";
+				break;
+			}
+
+
+			break;
+		case 2:
+			switch (b) {
+			case 1:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 2:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 3:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 4:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 5:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 6:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 7:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 8:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 9:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 10:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 11:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 12:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 13:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 14:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 15:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 16:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 17:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 18:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 19:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 20:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 21:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 22:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 23:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 24:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 25:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 26:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 27:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+			case 28:
+				cout << "Календарь: " << b << " Февраля" << endl;
+				break;
+
+
+
+			default:
+				cout << "Такого числа нет!";
+				break;
+			}
+
+			break;
+		case 3:
+			switch (b) {
+			case 1:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 2:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 3:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 4:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 5:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 6:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 7:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 8:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 9:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 10:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 11:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 12:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 13:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 14:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 15:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 16:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 17:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 18:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 19:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 20:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 21:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 22:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 23:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 24:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 25:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 26:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 27:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 28:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 29:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 30:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+			case 31:
+				cout << "Календарь: " << b << " Марта" << endl;
+				break;
+
+
+
+			default:
+				cout << "Такого числа нет!";
+				break;
+			}
+
+			break;
+		case 4:
+			switch (b) {
+			case 1:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 2:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 3:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 4:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 5:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 6:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 7:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 8:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 9:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 10:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 11:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 12:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 13:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 14:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 15:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 16:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 17:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 18:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 19:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 20:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 21:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 22:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 23:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 24:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 25:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 26:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 27:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 28:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 29:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			case 30:
+				cout << "Календарь: " << b << " Апреля" << endl;
+				break;
+			default:
+				cout << "Такого числа нет!";
+				break;
+			}
+			break;
+		case 5:
+			switch (b) {
+			case 1:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 2:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 3:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 4:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 5:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 6:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 7:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 8:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 9:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 10:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 11:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 12:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 13:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 14:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 15:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 16:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 17:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 18:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 19:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 20:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 21:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 22:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 23:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 24:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 25:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 26:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 27:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 28:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 29:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 30:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+			case 31:
+				cout << "Календарь: " << b << " Мая" << endl;
+				break;
+
+
+
+			default:
+				cout << "Такого числа нет!";
+				break;
+			}
+			break;
+		case 6:
+			switch (b) {
+			case 1:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 2:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 3:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 4:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 5:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 6:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 7:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 8:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 9:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 10:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 11:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 12:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 13:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 14:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 15:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 16:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 17:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 18:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 19:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 20:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 21:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 22:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 23:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 24:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 25:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 26:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 27:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 28:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 29:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+			case 30:
+				cout << "Календарь: " << b << " Июня" << endl;
+				break;
+
+
+
+
+			default:
+				cout << "Такого числа нет!";
+				break;
+			}
+			break;
+		case 7:
+			switch (b) {
+			case 1:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 2:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 3:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 4:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 5:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 6:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 7:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 8:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 9:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 10:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 11:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 12:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 13:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 14:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 15:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 16:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 17:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 18:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 19:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 20:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 21:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 22:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 23:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 24:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 25:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 26:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 27:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 28:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 29:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 30:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+			case 31:
+				cout << "Календарь: " << b << " Июля" << endl;
+				break;
+
+
+
+			default:
+				cout << "Такого числа нет!";
+				break;
+			}
+
+			break;
+		case 8:
+			switch (b) {
+			case 1:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 2:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 3:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 4:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 5:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 6:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 7:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 8:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 9:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 10:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 11:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 12:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 13:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 14:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 15:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 16:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 17:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 18:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 19:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 20:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 21:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 22:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 23:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 24:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 25:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 26:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 27:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 28:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 29:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 30:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+			case 31:
+				cout << "Календарь: " << b << " Августа" << endl;
+				break;
+
+
+
+			default:
+				cout << "Такого числа нет!";
+				break;
+			}
+
+			break;
+		case 9:
+			switch (b) {
+			case 1:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 2:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 3:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 4:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 5:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 6:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 7:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 8:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 9:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 10:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 11:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 12:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 13:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 14:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 15:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 16:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 17:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 18:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 19:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 20:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 21:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 22:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 23:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 24:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 25:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 26:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 27:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 28:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 29:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+			case 30:
+				cout << "Календарь: " << b << " Сентября" << endl;
+				break;
+
+
+
+
+			default:
+				cout << "Такого числа нет!";
+				break;
+			}
+			break;
+		case 10:
+			switch (b) {
+			case 1:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 2:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 3:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 4:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 5:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 6:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 7:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 8:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 9:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 10:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 11:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 12:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 13:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 14:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 15:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 16:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 17:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 18:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 19:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 20:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 21:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 22:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 23:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 24:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 25:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 26:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 27:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 28:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 29:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 30:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+			case 31:
+				cout << "Календарь: " << b << " Октября" << endl;
+				break;
+
+
+
+			default:
+				cout << "Такого числа нет!";
+				break;
+			}
+			break;
+		case 11:
+			switch (b) {
+			case 1:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 2:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 3:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 4:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 5:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 6:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 7:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 8:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 9:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 10:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 11:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 12:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 13:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 14:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 15:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 16:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 17:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 18:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 19:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 20:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 21:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 22:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 23:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 24:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 25:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 26:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 27:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 28:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 29:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+			case 30:
+				cout << "Календарь: " << b << " Ноября" << endl;
+				break;
+
+
+
+			default:
+				cout << "Такого числа нет!";
+				break;
+			}
+
+			break;
+		case 12:
+			switch (b) {
+			case 1:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 2:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 3:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 4:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 5:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 6:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 7:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 8:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 9:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 10:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 11:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 12:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 13:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 14:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 15:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 16:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 17:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 18:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 19:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 20:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 21:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 22:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 23:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 24:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 25:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 26:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 27:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 28:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 29:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 30:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+			case 31:
+				cout << "Календарь: " << b << " Декабря" << endl;
+				break;
+
+
+
+			default:
+				cout << "Такого числа нет!";
+				break;
+			}
+
+			break;
+
+		default:
+			cout << "Такого месяца нет!" << endl;
+
+		}
+
+		break;
+
+
+
+
+
+
+		return 0;
+	}
+}
