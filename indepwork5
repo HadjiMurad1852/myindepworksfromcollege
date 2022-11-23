@@ -1,0 +1,56 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	setlocale(0, "");
+
+	cout << "[+] Программа Калькулятор может: " << endl << endl <<
+		"[1] Складывать" << endl <<
+		"[2] Вычитать" << endl <<
+		"[3] Умножать" << endl <<
+		"[4] Делить" << endl <<
+		"[5] Деление от остатка" << endl;
+
+	int operation;
+	cin >> operation;
+
+	double a, b;
+	cout << "Введите первое число: ";
+	cin >> a;
+	cout << "Введите второе число: ";
+	cin >> b;
+	cout << endl;
+
+	if (a == -0) {
+		a = 0;
+	}
+	if (b == -0) {
+		b = 0;
+	}
+
+	if (operation == 1) {
+		cout << "[+] Результат: " << a << " + " << b << " = " << a + b;
+	}
+	else if (operation == 2) {
+		cout << "[-] Результат: " << a << " - " << b << " = " << a - b;
+	}
+	else if (operation == 3) {
+		cout << "[*] Результат: " << a << " * " << b << " = " << a * b;
+	}
+	else if (operation == 4) {
+		if (b == 0) {
+			cout << "На ноль делить нельзя";
+		}
+		else cout << "[/] Результат: " << a << " / " << b << " = " << a / b;
+	}
+	else if (operation == 5) {
+		if (b == 0) {
+			cout << "На ноль делить нельзя";
+		}
+		cout << "[%] Результат: " << a << " % " << b << " = " << int(a) % int(b);
+	}
+
+
+	return 0;
+}
+
